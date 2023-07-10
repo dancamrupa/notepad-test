@@ -27,7 +27,7 @@ targetCompatibility = 1.8
 
 ext {
     slf4jVersion = '1.7.7'
-    serenityCoreVersion = '3.5.0'
+    serenityCoreVersion = '3.7.1'
     junitVersion = '4.12'
     assertJVersion = '3.22.0'
     logbackVersion = '1.2.10'
@@ -49,4 +49,3 @@ dependencies {
 gradle.startParameter.continueOnFailure = true
 
 test.finalizedBy(aggregate)
-
