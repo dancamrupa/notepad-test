@@ -1,6 +1,6 @@
 Feature: El usuario ingresa a la pagina
-         online notepad y eliminar un articulo de
-         una lista
+  online notepad y eliminar un articulo de
+  una lista
 
   Scenario: Usuario elimina un articulo de una lista
     Given el usuario ingresa a la pagina online notepad

@@ -1,5 +1,6 @@
 package net.onlinenotepad.tasks;
 
+import net.onlinenotepad.interactions.WaitFor;
 import net.serenitybdd.core.steps.Instrumented;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -14,6 +15,7 @@ public class DeleteItem implements Task {
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
                 Click.on(TASK_LIST_BUTTON),
+                WaitFor.time(2000),
                 Enter.theValue("A").into(ADD_NEW_TASK),
                 Click.on(CHECK_BUTTON),
                 Enter.theValue("B").into(ADD_NEW_TASK),

@@ -1,6 +1,6 @@
 Feature: El usuario ingresa a la pagina
-         online notepad y mueve un articulo de
-         una lista
+  online notepad y mueve un articulo de
+  una lista
 
   Scenario: Usuario mueve un articulo de una lista
     Given el usuario ingresa a la pagina online notepad

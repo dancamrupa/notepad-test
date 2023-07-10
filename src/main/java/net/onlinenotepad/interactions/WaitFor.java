@@ -26,5 +26,4 @@ public class WaitFor implements Interaction {
     public static WaitFor time(int seconds) {
         return Instrumented.instanceOf(WaitFor.class).withProperties(seconds);
     }
-
 }

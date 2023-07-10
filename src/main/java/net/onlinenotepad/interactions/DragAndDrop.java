@@ -37,5 +37,4 @@ public class DragAndDrop implements Interaction {
     public static DragAndDrop on(String from, String to) {
         return Instrumented.instanceOf(DragAndDrop.class).withProperties(from, to);
     }
-
 }
